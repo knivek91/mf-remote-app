@@ -1,11 +1,13 @@
 import { defineConfig } from "vite";
 import path from "path";
 import { federation } from "@module-federation/vite";
+import { ghPages } from "vite-plugin-gh-pages";
 
-// https://vite.dev/config/
+/** @type {import('vite').UserConfig} */
 export default defineConfig({
-  base: '/<name of the repository here>',
+  base: "/mf-remote-app/",
   plugins: [
+    ghPages(),
     federation({
       name: "poc-remote",
       filename: "poc-remote.js",
