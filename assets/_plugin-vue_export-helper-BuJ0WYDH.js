@@ -1,0 +1,1 @@
+import{p as s,a as n}from"./poc_mf_2_remote__mf_v__runtimeInit__mf_v__-C6zSSW24.js";const{loadShare:a}=n,{initPromise:c}=s,i=c.then(e=>a("vue",{customShareInfo:{shareConfig:{singleton:!0,strictVersion:!1,requiredVersion:"^3.5.22"}}})),m=await i.then(e=>e());var p=m;const u=(e,o)=>{const _=e.__vccOpts||e;for(const[t,r]of o)_[t]=r;return _};export{u as _,p};
