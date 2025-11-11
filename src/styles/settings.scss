@@ -1,0 +1,11 @@
+@forward "vuetify/settings" with (
+  $color-pack: false,
+  $font-size-root: 1.3rem,
+  // card testing, to see if the host overrides this
+  $card-border-radius: 16px,
+  $card-elevation: 12,
+  $card-title-font-size: 1.4rem,
+  $card-padding: 24px,
+  $card-text-padding: 20px,
+  $card-color: #f9f9fb
+);

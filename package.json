@@ -9,16 +9,22 @@
     "preview": "vite preview --port 4174"
   },
   "dependencies": {
+    "@mdi/font": "7.4.47",
     "@module-federation/vite": "1.9.0",
     "vite-plugin-gh-pages": "1.0.1",
-    "vue": "3.5.22"
+    "vite-plugin-vuetify": "2.1.2",
+    "vue": "3.5.24",
+    "vuetify": "3.10.10"
   },
   "devDependencies": {
-    "@types/node": "24.6.0",
+    "@types/node": "24.10.0",
     "@vitejs/plugin-vue": "6.0.1",
     "@vue/tsconfig": "0.8.1",
+    "sass": "1.94.0",
+    "sass-loader": "16.0.6",
     "typescript": "5.9.3",
-    "vite": "7.1.7",
-    "vue-tsc": "3.1.0"
+    "vite": "7.2.2",
+    "vite-plugin-css-injected-by-js": "^3.5.2",
+    "vue-tsc": "3.1.3"
   }
 }
