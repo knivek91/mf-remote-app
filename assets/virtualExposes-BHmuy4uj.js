@@ -1,2 +1,0 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/Panel-D0TfURgk.js","assets/resizeObserver-DlKPDhmr.js","assets/poc_mf_2_remote__mf_v__runtimeInit__mf_v__-C6zSSW24.js","assets/VContainer-GnV9RBcP.js","assets/icons-CBBlo3nF.js"])))=>i.map(i=>d[i]);
-import{_ as o}from"./preload-helper-WqJMWHT7.js";const a={"./Panel":async()=>{const t=await o(()=>import("./Panel-D0TfURgk.js"),__vite__mapDeps([0,1,2,3,4])),e={};return Object.assign(e,t),Object.defineProperty(e,"__esModule",{value:!0,enumerable:!1}),e}};export{a as default};
