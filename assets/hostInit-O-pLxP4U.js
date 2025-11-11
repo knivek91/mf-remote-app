@@ -1,2 +1,2 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["poc-remote.js","assets/poc_mf_2_remote__mf_v__runtimeInit__mf_v__-C6zSSW24.js","assets/virtualExposes-UZQAp7Zd.js","assets/preload-helper-CIWiN5IL.js"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["poc-remote.js","assets/poc_mf_2_remote__mf_v__runtimeInit__mf_v__-C6zSSW24.js","assets/virtualExposes-DODruQOO.js","assets/preload-helper-CIWiN5IL.js"])))=>i.map(i=>d[i]);
 import{_ as i}from"./preload-helper-CIWiN5IL.js";const o=i(()=>import("../poc-remote.js"),__vite__mapDeps([0,1,2,3]));Promise.resolve(o).then(e=>Promise.resolve(e.__tla).then(e.init).catch(e.init));
