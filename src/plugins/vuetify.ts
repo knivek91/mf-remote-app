@@ -1,10 +1,18 @@
 // @ts-expect-error
 import "vuetify/styles";
 import { createVuetify } from "vuetify";
-import { VApp } from "vuetify/components";
+import * as components from "vuetify/components";
+import { mdi } from "vuetify/iconsets/mdi";
+import "@mdi/font/css/materialdesignicons.css";
 
 export default createVuetify({
-  components: { VApp },
+  components,
+  icons: {
+    defaultSet: "mdi", // Establece 'mdi' como el set por defecto
+    sets: {
+      mdi, // Registra el set de iconos 'mdi' que importaste
+    },
+  },
   theme: {
     defaultTheme: "remote-light",
     themes: {
